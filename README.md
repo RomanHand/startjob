@@ -1,6 +1,14 @@
 # startjob
 # Ru 
 Файл для быстрой настройки системы Ubuntu\Debian
+Убедитесь что у вас установлен Git:
+
+        git --version
+        
+Если Git не установлен, его можно установить с помощью команды:
+
+        sudo apt install git
+
 Убедитесь что у вас установлен Python3:
 
     python3 --version
