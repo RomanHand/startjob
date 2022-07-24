@@ -11,7 +11,8 @@
     
 Для запуска необходимо ввсети следющую команду:
 
-    sydo python3 start.py
+    git clone https://github.com/RomanHand/startjob
+    sudo python3 startjob/start.py
 
 Файл содерижит следующие ултилиты:
 1.  htop
