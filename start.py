@@ -14,4 +14,4 @@ my_file.write("#!/usr/bin/python3 \n"
 my_file.close()
 shutil.move("update", "/usr/bin")
 os.system('chmod ugo+x /usr/bin/update')
-os.system('apt install htop net-tools lm-sensors openssh-server -y ')
+os.system('apt install htop net-tools lm-sensors openssh-server vim -y ')
