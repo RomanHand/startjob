@@ -10,7 +10,7 @@ my_file = open("update", "w")
 my_file.write("#!/usr/bin/python3 \n"
               "import os \n \n"
               "os.system('apt update') \n"
-              "os.system('apt upgrade -y') ")
+              "os.system('apt full-upgrade -y') ")
 my_file.close()
 shutil.move("update", "/usr/bin")
 os.system('chmod ugo+x /usr/bin/update')
